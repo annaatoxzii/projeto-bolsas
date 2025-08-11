@@ -28,4 +28,29 @@ body {
 
 a {
   text-decoration: none;
+    color: var(--corTexto);
+}
+
+header{
+  display: flex;
+  justify-content: space-evenly;
+  height: 5.5rem;
+  align-items: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.verde{
+  color: var(--corPrimaria);
+}
+
+.logo{
+  height: 2.5rem;
+}
+.carrinho{
+  height: 2.5rem;
 }
