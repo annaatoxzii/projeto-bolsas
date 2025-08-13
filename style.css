@@ -54,3 +54,34 @@ nav{
 .carrinho{
   height: 2.5rem;
 }
+
+.aviso{
+  height: 35rem;
+  background-image: url(imagens/bolsa-wallpaper.jpg);
+
+}
+.textos{
+  text-align: left;
+  width: 25rem;
+  margin-left: 10rem;
+  gap: 2.5rem;
+  display: flex;
+  flex-direction: column;
+
+  h2{
+    margin-top: 6.5rem;
+    font-size: 3.5rem;
+    color: var(--corTexto);
+  }
+  p{
+    color: var(--corTexto);
+  }
+  button{
+    height: 3rem;
+    width: 12rem;
+    background-color: var(--corPrimaria);
+    color: var(--corFundo);
+    border: none;
+    font-size: 1rem;
+  }
+}
