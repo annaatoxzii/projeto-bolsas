@@ -28,39 +28,42 @@ body {
 
 a {
   text-decoration: none;
-    color: var(--corTexto);
+  color: var(--corTexto);
 }
 
-header{
+header {
   display: flex;
   justify-content: space-evenly;
   height: 5.5rem;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   gap: 1.5rem;
 }
 
-.verde{
+.verde {
   color: var(--corPrimaria);
 }
 
-.logo{
-  height: 2.5rem;
-}
-.carrinho{
+.logo {
   height: 2.5rem;
 }
 
-.aviso{
+.carrinho {
+  height: 2.5rem;
+}
+
+.aviso {
   height: 35rem;
   background-image: url(imagens/bolsa-wallpaper.jpg);
 
 }
-.textos{
+
+.textos {
   text-align: left;
   width: 25rem;
   margin-left: 10rem;
@@ -68,20 +71,59 @@ nav{
   display: flex;
   flex-direction: column;
 
-  h2{
+  h2 {
     margin-top: 6.5rem;
     font-size: 3.5rem;
     color: var(--corTexto);
   }
-  p{
+
+  p {
     color: var(--corTexto);
   }
-  button{
+
+  button {
     height: 3rem;
     width: 12rem;
     background-color: var(--corPrimaria);
     color: var(--corFundo);
     border: none;
     font-size: 1rem;
+  }
+}
+
+.fileira {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80rem;
+  align-items: center;
+  padding: 2rem;
+}
+
+.fileiras {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 6rem;
+}
+
+.bolsa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+
+  img {
+    height: 14rem;
+  }
+
+  .tit {
+    font-size: 1.4rem;
+    color: var(--corTexto);
+  }
+
+  p {
+    font-size: 0.8rem;
+    color: var(--textoSuave);
   }
 }
