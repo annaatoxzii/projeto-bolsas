@@ -60,7 +60,7 @@ nav {
 .aviso {
   height: 35rem;
   background-image: url(imagens/bolsa-wallpaper.jpg);
-
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .textos {
@@ -126,4 +126,29 @@ nav {
     font-size: 0.8rem;
     color: var(--textoSuave);
   }
+}
+
+.redes{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width:cover;
+  margin-top: 3rem;
+}
+
+.logos{
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+  img{
+    height: 1.6rem;
+  }
+}
+
+.infos{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  padding: 1.5rem;
 }
