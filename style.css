@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 :root {
@@ -134,7 +133,7 @@ nav {
   flex-direction: column;
   justify-content: space-evenly;
   width:cover;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .logos{
@@ -151,4 +150,17 @@ nav {
   justify-content: space-evenly;
   gap: 1rem;
   padding: 1.5rem;
+}
+
+footer {
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  background-color: var(--cinzaClaro);
+  width: 95rem;
+  height: 3.5rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: -5.8rem;
 }
